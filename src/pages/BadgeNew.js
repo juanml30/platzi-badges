@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import header from "../images/badge-conf.svg";
 import "./styles/BadgeNew.css";
 import Badge from "../components/Badge";
+import BadgeForm from "../components/BadgeForm";
 
 class BadgeNew extends React.Component {
   render() {
@@ -14,13 +15,16 @@ class BadgeNew extends React.Component {
         </div>
         <div className="container">
           <div className="row">
-            <div className="col">
+            <div className="col-6">
               <Badge
                 firstName="Juan"
                 lastName="Moreno"
                 jobTitle="Front End Developer"
                 twitter="juan_ml_30"
               />
+            </div>
+            <div className="col-6">
+              <BadgeForm />
             </div>
           </div>
         </div>
