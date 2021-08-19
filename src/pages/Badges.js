@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "./styles/Badges.css";
 import Logo from "../images/badge-conf.svg";
+import BadgesList from "../components/BadgesList";
 
 class Badges extends React.Component {
   state = {
@@ -54,6 +55,11 @@ class Badges extends React.Component {
             <a className="btn btn-primary" href="/badges/new">
               New Badge
             </a>
+          </div>
+          <div className="Badges__list">
+            <div className="Badges__container">
+              <BadgesList badges={this.state.data} />
+            </div>
           </div>
         </div>
       </div>
