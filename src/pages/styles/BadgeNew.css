@@ -1,8 +1,9 @@
 .BadgeNew__hero {
-  width: 100%;
-  padding: 2rem 0;
-  background: url("../../images/estrellas.svg"), #1b1b25;
-  background-repeat: repeat;
-  margin-bottom: 1rem;
-  color: #ffffff;
+    width: 100%;
+    padding: 2rem 0;
+    background: url("../../images/descargadas/fondolindo.jpg"), #1b1b25;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1rem;
+    color: #ffffff;
 }
