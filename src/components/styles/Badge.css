@@ -43,13 +43,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #98ca3f;
+    color: gold;
     font-weight: bold;
     font-style: italic;
+    -webkit-text-stroke: 0.125px black;
 }
 
 .list-unstyled .card {
-    background: url("../../images/descargadas/fondo11.jpeg");
+    background: url("../../images/descargadas/fondo1.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
